@@ -29,7 +29,7 @@
 	"expanded:images/IOS.png":"nil",
 	"expanded:images/all.png":"nil",
 	"viewStartMs":"12572.125520585",
-	"pref__general__AutoKeyframePropertiesArmed":"true",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
 	"expanded:images/Android.png":"nil",
 	"symbol_stage":{
 		"element_${TextCopy3}":{

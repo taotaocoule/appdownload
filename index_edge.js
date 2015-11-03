@@ -155,7 +155,7 @@
                         '${Stage}': {
                             isStage: true,
                             rect: ['null', 'null', '640px', '960px', 'auto', 'auto'],
-                            sizeRange: ['640px','650px','',''],
+                            sizeRange: ['640px','','',''],
                             overflow: 'hidden',
                             fill: ["rgba(255,255,255,1)"]
                         }
