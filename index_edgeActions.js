@@ -13,6 +13,24 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // 常用的 Edge 类�
    (function(symbolName) {
       
       
+      Symbol.bindElementAction(compId, symbolName, "${Android}", "click", function(sym, e) {
+         // 插入代码——当鼠标在此处单击
+         // 在新窗口中导航到新的URL
+          window.open("http://android.myapp.com/myapp/detail.htm?apkName=com.example.bianlidai", "_blank");
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${IOS}", "click", function(sym, e) {
+         // 插入代码——当鼠标在此处单击
+         // 在新窗口中导航到新的URL
+          window.open("https://itunes.apple.com/cn/app/123bian-li-dai/id1033051325?mt=8", "_blank");
+         
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 

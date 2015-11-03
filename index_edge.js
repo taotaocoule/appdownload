@@ -22,245 +22,448 @@
                 version: "5.0.0",
                 minimumCompatibleVersion: "5.0.0",
                 build: "5.0.0.375",
-                scaleToFit: "none",
-                centerStage: "none",
+                scaleToFit: "width",
+                centerStage: "horizontal",
                 resizeInstances: false,
                 content: {
                     dom: [
                         {
                             id: 'Text',
                             type: 'text',
-                            rect: ['636px', '190px', 'auto', 'auto', 'auto', 'auto'],
+                            rect: ['739px', '190px', 'auto', 'auto', 'auto', 'auto'],
                             text: "海量项目，一手掌握",
                             font: ['Arial, Helvetica, sans-serif', [2.69, "em"], "rgba(255,159,0,1.00)", "700", "none", "", "break-word", "nowrap"]
                         },
                         {
-                            id: 'Rectangle',
-                            type: 'rect',
-                            rect: ['42px', '349px', '240px', '317px', 'auto', 'auto'],
-                            fill: ["rgba(192,192,192,1)"],
-                            stroke: [0,"rgba(0,0,0,1)","none"],
-                            boxShadow: ["", 0, 10, 17, 1, "rgba(0,0,0,0.65098)"]
-                        },
-                        {
-                            id: 'Rectangle2',
-                            type: 'rect',
-                            rect: ['303px', '533px', '197px', '134px', 'auto', 'auto'],
-                            fill: ["rgba(192,192,192,1)"],
-                            stroke: [0,"rgb(0, 0, 0)","none"]
-                        },
-                        {
                             id: 'Text3',
                             type: 'text',
-                            rect: ['298px', '399px', 'auto', 'auto', 'auto', 'auto'],
-                            text: "各种投标项目，<br>满足不同需求。<br>投资收益，触手可及",
+                            rect: ['665px', '399px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "各种投标项目，<br><br>满足不同需求。<br><br>投资收益，触手可及",
                             align: "left",
                             font: ['Arial, Helvetica, sans-serif', [1.71, "em"], "rgba(156,156,156,1.00)", "700", "none solid rgb(255, 159, 0)", "normal", "break-word", "nowrap"]
                         },
                         {
                             id: 'TextCopy',
                             type: 'text',
-                            rect: ['636px', '190px', 'auto', 'auto', 'auto', 'auto'],
-                            text: "海量项目，一手掌握",
+                            rect: ['739px', '190px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "核心功能，一应俱全",
                             font: ['Arial, Helvetica, sans-serif', [2.69, "em"], "rgba(255,159,0,1.00)", "700", "none", "", "break-word", "nowrap"]
-                        },
-                        {
-                            id: 'RectangleCopy',
-                            type: 'rect',
-                            rect: ['42px', '349px', '240px', '317px', 'auto', 'auto'],
-                            fill: ["rgba(192,192,192,1)"],
-                            stroke: [0,"rgba(0,0,0,1)","none"],
-                            boxShadow: ["", 0, 10, 17, 1, "rgba(0,0,0,0.65098)"]
-                        },
-                        {
-                            id: 'Rectangle2Copy',
-                            type: 'rect',
-                            rect: ['303px', '533px', '197px', '134px', 'auto', 'auto'],
-                            fill: ["rgba(192,192,192,1)"],
-                            stroke: [0,"rgb(0, 0, 0)","none"]
                         },
                         {
                             id: 'Text3Copy',
                             type: 'text',
-                            rect: ['298px', '399px', 'auto', 'auto', 'auto', 'auto'],
-                            text: "各种投标项目，<br>满足不同需求。<br>投资收益，触手可及",
+                            rect: ['-325px', '399px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "充值、提现、投标、回款<br><br>清晰记录，一目了然<br><br>你的地盘，你做主",
                             align: "left",
                             font: ['Arial, Helvetica, sans-serif', [1.71, "em"], "rgba(156,156,156,1.00)", "700", "none solid rgb(255, 159, 0)", "normal", "break-word", "nowrap"]
+                        },
+                        {
+                            id: 'TextCopy2',
+                            type: 'text',
+                            rect: ['739px', '190px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "两端同步，轻松理财",
+                            font: ['Arial, Helvetica, sans-serif', [2.69, "em"], "rgba(255,159,0,1.00)", "700", "none", "", "break-word", "nowrap"]
+                        },
+                        {
+                            id: 'Text3Copy2',
+                            type: 'text',
+                            rect: ['665px', '399px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "APP与PC数据互通<br><br>让您随时随地<br><br>轻松理财，快意赚钱",
+                            align: "left",
+                            font: ['Arial, Helvetica, sans-serif', [1.71, "em"], "rgba(156,156,156,1.00)", "700", "none solid rgb(255, 159, 0)", "normal", "break-word", "nowrap"]
+                        },
+                        {
+                            id: 'TextCopy3',
+                            type: 'text',
+                            rect: ['739px', '190px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "银行级防护，安全无忧",
+                            font: ['Arial, Helvetica, sans-serif', [2.69, "em"], "rgba(255,159,0,1.00)", "700", "none", "", "break-word", "nowrap"]
+                        },
+                        {
+                            id: 'Text3Copy3',
+                            type: 'text',
+                            rect: ['-345px', '399px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "手势密码，身份认证<br><br>多重安全防护<br><br>银行级护理，然您安全无忧",
+                            align: "left",
+                            font: ['Arial, Helvetica, sans-serif', [1.71, "em"], "rgba(156,156,156,1.00)", "700", "none solid rgb(255, 159, 0)", "normal", "break-word", "nowrap"]
+                        },
+                        {
+                            id: 'all',
+                            type: 'image',
+                            rect: ['36px', '973px', '214px', '434px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"all.png",'0px','0px']
+                        },
+                        {
+                            id: 'get',
+                            type: 'image',
+                            rect: ['36px', '353px', '204px', '411px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"get.png",'0px','0px']
+                        },
+                        {
+                            id: 'all_platform',
+                            type: 'image',
+                            rect: ['11px', '1024px', '373px', '363px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"all_platform.png",'0px','0px']
+                        },
+                        {
+                            id: 'safety',
+                            type: 'image',
+                            rect: ['34px', '353px', '252px', '286px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"safety.png",'0px','0px']
+                        },
+                        {
+                            id: 'IOS',
+                            type: 'image',
+                            rect: ['108', '424', '170px', '48px', 'auto', 'auto'],
+                            opacity: 0,
+                            fill: ["rgba(0,0,0,0)",im+"IOS.png",'0px','0px']
+                        },
+                        {
+                            id: 'Android',
+                            type: 'image',
+                            rect: ['108px', '523px', '170px', '48px', 'auto', 'auto'],
+                            opacity: 0,
+                            fill: ["rgba(0,0,0,0)",im+"Android.png",'0px','0px']
+                        },
+                        {
+                            id: 'download',
+                            type: 'image',
+                            rect: ['361px', '305px', '227px', '411px', 'auto', 'auto'],
+                            opacity: 0,
+                            fill: ["rgba(0,0,0,0)",im+"download.png",'0px','0px']
+                        },
+                        {
+                            id: 'Text7',
+                            type: 'text',
+                            rect: ['45px', '184', 'auto', 'auto', 'auto', 'auto'],
+                            opacity: 0,
+                            text: "免费下载，开启轻松投资之旅",
+                            align: "left",
+                            font: ['Arial, Helvetica, sans-serif', [2.69, "em"], "rgba(255,159,0,1)", "700", "none solid rgb(255, 159, 0)", "normal", "break-word", "nowrap"]
+                        },
+                        {
+                            id: 'Text8',
+                            type: 'text',
+                            rect: ['90px', '242px', 'auto', 'auto', 'auto', 'auto'],
+                            opacity: 0,
+                            text: "为梦想注入希望，让财富触手可及",
+                            align: "left",
+                            font: ['Arial, Helvetica, sans-serif', [1.77, "em"], "rgba(164,164,164,1.00)", "400", "none solid rgb(255, 159, 0)", "normal", "break-word", "nowrap"]
                         }
                     ],
                     style: {
                         '${Stage}': {
                             isStage: true,
-                            rect: [undefined, undefined, '640px', '960px'],
-                            sizeRange: ['100%','100%','',''],
+                            rect: ['null', 'null', '640px', '960px', 'auto', 'auto'],
+                            sizeRange: ['640px','650px','',''],
                             overflow: 'hidden',
                             fill: ["rgba(255,255,255,1)"]
                         }
                     }
                 },
                 timeline: {
-                    duration: 7500,
+                    duration: 18500,
                     autoPlay: true,
                     data: [
                         [
-                            "eid146",
+                            "eid178",
                             "left",
-                            3500,
-                            1287,
+                            4250,
+                            1170,
                             "linear",
                             "${TextCopy}",
-                            '636px',
+                            '739px',
                             '90px'
                         ],
                         [
-                            "eid147",
+                            "eid179",
                             "left",
-                            7180,
-                            320,
+                            7596,
+                            1154,
                             "linear",
                             "${TextCopy}",
                             '90px',
                             '-477px'
                         ],
                         [
-                            "eid128",
+                            "eid225",
                             "top",
-                            5430,
-                            1287,
+                            13670,
+                            1170,
                             "linear",
-                            "${Rectangle2Copy}",
-                            '535px',
-                            '533px'
+                            "${safety}",
+                            '1062px',
+                            '353px'
                         ],
                         [
-                            "eid129",
+                            "eid232",
                             "top",
-                            7180,
+                            15846,
                             0,
                             "linear",
-                            "${Rectangle2Copy}",
-                            '533px',
-                            '533px'
+                            "${safety}",
+                            '353px',
+                            '353px'
                         ],
                         [
-                            "eid50",
+                            "eid233",
+                            "top",
+                            17000,
+                            0,
+                            "linear",
+                            "${safety}",
+                            '353px',
+                            '353px'
+                        ],
+                        [
+                            "eid166",
                             "left",
-                            1755,
+                            1170,
                             1170,
                             "linear",
                             "${Text3}",
-                            '562px',
-                            '298px'
+                            '665px',
+                            '345px'
                         ],
                         [
-                            "eid79",
+                            "eid172",
                             "left",
                             3346,
-                            291,
+                            1154,
                             "linear",
                             "${Text3}",
-                            '298px',
-                            '-269px'
+                            '345px',
+                            '-275px'
                         ],
                         [
-                            "eid118",
+                            "eid226",
                             "left",
-                            5430,
-                            1287,
+                            13670,
+                            0,
+                            "linear",
+                            "${safety}",
+                            '34px',
+                            '34px'
+                        ],
+                        [
+                            "eid227",
+                            "left",
+                            14840,
+                            0,
+                            "linear",
+                            "${safety}",
+                            '34px',
+                            '34px'
+                        ],
+                        [
+                            "eid230",
+                            "left",
+                            15846,
+                            1154,
+                            "linear",
+                            "${safety}",
+                            '34px',
+                            '-279px'
+                        ],
+                        [
+                            "eid218",
+                            "left",
+                            12500,
+                            1170,
+                            "linear",
+                            "${TextCopy3}",
+                            '739px',
+                            '90px'
+                        ],
+                        [
+                            "eid219",
+                            "left",
+                            15846,
+                            1154,
+                            "linear",
+                            "${TextCopy3}",
+                            '90px',
+                            '-477px'
+                        ],
+                        [
+                            "eid158",
+                            "top",
+                            5420,
+                            1170,
+                            "linear",
+                            "${all}",
+                            '973px',
+                            '350px'
+                        ],
+                        [
+                            "eid160",
+                            "top",
+                            7596,
+                            0,
+                            "linear",
+                            "${all}",
+                            '350px',
+                            '350px'
+                        ],
+                        [
+                            "eid203",
+                            "top",
+                            9670,
+                            1170,
+                            "linear",
+                            "${all_platform}",
+                            '1024px',
+                            '353px'
+                        ],
+                        [
+                            "eid208",
+                            "top",
+                            11846,
+                            0,
+                            "linear",
+                            "${all_platform}",
+                            '353px',
+                            '353px'
+                        ],
+                        [
+                            "eid205",
+                            "left",
+                            9670,
+                            0,
+                            "linear",
+                            "${all_platform}",
+                            '11px',
+                            '11px'
+                        ],
+                        [
+                            "eid206",
+                            "left",
+                            10840,
+                            0,
+                            "linear",
+                            "${all_platform}",
+                            '11px',
+                            '11px'
+                        ],
+                        [
+                            "eid209",
+                            "left",
+                            11846,
+                            1154,
+                            "linear",
+                            "${all_platform}",
+                            '11px',
+                            '-396px'
+                        ],
+                        [
+                            "eid174",
+                            "left",
+                            5420,
+                            1170,
                             "linear",
                             "${Text3Copy}",
-                            '562px',
-                            '298px'
+                            '665px',
+                            '330px'
                         ],
                         [
-                            "eid119",
+                            "eid175",
                             "left",
-                            7180,
-                            320,
+                            7596,
+                            1154,
                             "linear",
                             "${Text3Copy}",
-                            '298px',
-                            '-269px'
+                            '330px',
+                            '-325px'
                         ],
                         [
-                            "eid134",
-                            "boxShadow.blur",
-                            4787,
-                            0,
-                            "linear",
-                            "${RectangleCopy}",
-                            '17px',
-                            '17px'
-                        ],
-                        [
-                            "eid135",
-                            "boxShadow.blur",
-                            6073,
-                            0,
-                            "linear",
-                            "${RectangleCopy}",
-                            '17px',
-                            '17px'
-                        ],
-                        [
-                            "eid144",
-                            "width",
-                            4787,
-                            0,
-                            "linear",
-                            "${RectangleCopy}",
-                            '240px',
-                            '240px'
-                        ],
-                        [
-                            "eid145",
-                            "width",
-                            6073,
-                            0,
-                            "linear",
-                            "${RectangleCopy}",
-                            '240px',
-                            '240px'
-                        ],
-                        [
-                            "eid7",
-                            "height",
+                            "eid185",
+                            "left",
                             1170,
-                            0,
-                            "linear",
-                            "${Rectangle}",
-                            '317px',
-                            '317px'
-                        ],
-                        [
-                            "eid33",
-                            "height",
-                            2340,
-                            0,
-                            "linear",
-                            "${Rectangle}",
-                            '317px',
-                            '317px'
-                        ],
-                        [
-                            "eid5",
-                            "boxShadow.spread",
                             1170,
-                            0,
                             "linear",
-                            "${Rectangle}",
-                            '1px',
-                            '1px'
+                            "${get}",
+                            '41px',
+                            '36px'
                         ],
                         [
-                            "eid37",
-                            "boxShadow.spread",
-                            2340,
-                            0,
+                            "eid188",
+                            "left",
+                            3346,
+                            1154,
                             "linear",
-                            "${Rectangle}",
-                            '1px',
-                            '1px'
+                            "${get}",
+                            '36px',
+                            '-238px'
+                        ],
+                        [
+                            "eid287",
+                            "opacity",
+                            17000,
+                            1500,
+                            "linear",
+                            "${IOS}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid214",
+                            "left",
+                            13670,
+                            1170,
+                            "linear",
+                            "${Text3Copy3}",
+                            '665px',
+                            '301px'
+                        ],
+                        [
+                            "eid215",
+                            "left",
+                            15846,
+                            1154,
+                            "linear",
+                            "${Text3Copy3}",
+                            '301px',
+                            '-345px'
+                        ],
+                        [
+                            "eid286",
+                            "opacity",
+                            17000,
+                            1500,
+                            "linear",
+                            "${Android}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid283",
+                            "opacity",
+                            17000,
+                            1500,
+                            "linear",
+                            "${Text8}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid190",
+                            "left",
+                            9670,
+                            1170,
+                            "linear",
+                            "${Text3Copy2}",
+                            '665px',
+                            '384px'
+                        ],
+                        [
+                            "eid191",
+                            "left",
+                            11846,
+                            1154,
+                            "linear",
+                            "${Text3Copy2}",
+                            '384px',
+                            '-275px'
                         ],
                         [
                             "eid45",
@@ -269,233 +472,33 @@
                             1170,
                             "linear",
                             "${Text}",
-                            '636px',
+                            '739px',
                             '90px'
                         ],
                         [
                             "eid77",
                             "left",
                             3346,
-                            291,
+                            1154,
                             "linear",
                             "${Text}",
                             '90px',
                             '-477px'
                         ],
                         [
-                            "eid3",
-                            "boxShadow.offsetV",
-                            1170,
-                            0,
-                            "linear",
-                            "${Rectangle}",
-                            '10px',
-                            '10px'
-                        ],
-                        [
-                            "eid35",
-                            "boxShadow.offsetV",
-                            2340,
-                            0,
-                            "linear",
-                            "${Rectangle}",
-                            '10px',
-                            '10px'
-                        ],
-                        [
-                            "eid142",
-                            "left",
-                            4787,
-                            1287,
-                            "linear",
-                            "${RectangleCopy}",
-                            '35px',
-                            '42px'
-                        ],
-                        [
-                            "eid143",
-                            "left",
-                            7180,
-                            320,
-                            "linear",
-                            "${RectangleCopy}",
-                            '42px',
-                            '-525px'
-                        ],
-                        [
-                            "eid66",
-                            "scaleY",
-                            2924,
-                            222,
-                            "linear",
-                            "${Rectangle2}",
-                            '1',
-                            '1.1'
-                        ],
-                        [
-                            "eid67",
-                            "scaleY",
-                            3147,
-                            199,
-                            "linear",
-                            "${Rectangle2}",
-                            '1.1',
-                            '1'
-                        ],
-                        [
-                            "eid132",
-                            "boxShadow.offsetH",
-                            4787,
-                            0,
-                            "linear",
-                            "${RectangleCopy}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
-                            "eid133",
-                            "boxShadow.offsetH",
-                            6073,
-                            0,
-                            "linear",
-                            "${RectangleCopy}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
-                            "eid46",
-                            "left",
-                            1755,
-                            1170,
-                            "linear",
-                            "${Rectangle2}",
-                            '567px',
-                            '303px'
-                        ],
-                        [
-                            "eid76",
-                            "left",
-                            3346,
-                            291,
-                            "linear",
-                            "${Rectangle2}",
-                            '303px',
-                            '-264px'
-                        ],
-                        [
-                            "eid4",
-                            "boxShadow.blur",
-                            1170,
-                            0,
-                            "linear",
-                            "${Rectangle}",
-                            '17px',
-                            '17px'
-                        ],
-                        [
-                            "eid36",
-                            "boxShadow.blur",
-                            2340,
-                            0,
-                            "linear",
-                            "${Rectangle}",
-                            '17px',
-                            '17px'
-                        ],
-                        [
-                            "eid64",
-                            "scaleX",
-                            2924,
-                            222,
-                            "linear",
-                            "${Rectangle2}",
-                            '1',
-                            '1.1'
-                        ],
-                        [
-                            "eid65",
-                            "scaleX",
-                            3147,
-                            199,
-                            "linear",
-                            "${Rectangle2}",
-                            '1.1',
-                            '1'
-                        ],
-                        [
-                            "eid47",
+                            "eid180",
                             "top",
-                            1755,
+                            4250,
                             1170,
-                            "linear",
-                            "${Rectangle2}",
-                            '535px',
-                            '533px'
-                        ],
-                        [
-                            "eid71",
-                            "top",
-                            3346,
-                            0,
-                            "linear",
-                            "${Rectangle2}",
-                            '533px',
-                            '533px'
-                        ],
-                        [
-                            "eid140",
-                            "boxShadow.offsetV",
-                            4787,
-                            0,
-                            "linear",
-                            "${RectangleCopy}",
-                            '10px',
-                            '10px'
-                        ],
-                        [
-                            "eid141",
-                            "boxShadow.offsetV",
-                            6073,
-                            0,
-                            "linear",
-                            "${RectangleCopy}",
-                            '10px',
-                            '10px'
-                        ],
-                        [
-                            "eid138",
-                            "height",
-                            4787,
-                            0,
-                            "linear",
-                            "${RectangleCopy}",
-                            '317px',
-                            '317px'
-                        ],
-                        [
-                            "eid139",
-                            "height",
-                            6073,
-                            0,
-                            "linear",
-                            "${RectangleCopy}",
-                            '317px',
-                            '317px'
-                        ],
-                        [
-                            "eid148",
-                            "top",
-                            3500,
-                            1287,
                             "linear",
                             "${TextCopy}",
                             '190px',
                             '184px'
                         ],
                         [
-                            "eid149",
+                            "eid181",
                             "top",
-                            7180,
+                            7596,
                             0,
                             "linear",
                             "${TextCopy}",
@@ -503,24 +506,24 @@
                             '184px'
                         ],
                         [
-                            "eid9",
-                            "width",
-                            1170,
+                            "eid156",
+                            "left",
+                            5420,
                             0,
                             "linear",
-                            "${Rectangle}",
-                            '240px',
-                            '240px'
+                            "${all}",
+                            '36px',
+                            '36px'
                         ],
                         [
-                            "eid32",
-                            "width",
-                            2340,
-                            0,
+                            "eid161",
+                            "left",
+                            7596,
+                            1154,
                             "linear",
-                            "${Rectangle}",
-                            '240px',
-                            '240px'
+                            "${all}",
+                            '36px',
+                            '-243px'
                         ],
                         [
                             "eid44",
@@ -543,214 +546,184 @@
                             '184px'
                         ],
                         [
-                            "eid136",
-                            "boxShadow.spread",
-                            4787,
-                            0,
+                            "eid284",
+                            "opacity",
+                            17000,
+                            1500,
                             "linear",
-                            "${RectangleCopy}",
-                            '1px',
-                            '1px'
+                            "${Text7}",
+                            '0.000000',
+                            '1'
                         ],
                         [
-                            "eid137",
-                            "boxShadow.spread",
-                            6073,
-                            0,
-                            "linear",
-                            "${RectangleCopy}",
-                            '1px',
-                            '1px'
-                        ],
-                        [
-                            "eid130",
+                            "eid184",
                             "top",
-                            4787,
-                            1287,
+                            1170,
+                            1170,
                             "linear",
-                            "${RectangleCopy}",
-                            '973px',
-                            '349px'
+                            "${get}",
+                            '984px',
+                            '353px'
                         ],
                         [
-                            "eid131",
+                            "eid189",
                             "top",
-                            7180,
+                            3346,
+                            1154,
+                            "linear",
+                            "${get}",
+                            '353px',
+                            '353px'
+                        ],
+                        [
+                            "eid176",
+                            "top",
+                            5420,
                             0,
-                            "linear",
-                            "${RectangleCopy}",
-                            '349px',
-                            '349px'
-                        ],
-                        [
-                            "eid120",
-                            "top",
-                            5430,
-                            1287,
                             "linear",
                             "${Text3Copy}",
                             '399px',
-                            '393px'
+                            '399px'
                         ],
                         [
-                            "eid121",
+                            "eid177",
                             "top",
-                            7180,
+                            7596,
                             0,
                             "linear",
                             "${Text3Copy}",
-                            '393px',
-                            '393px'
+                            '399px',
+                            '399px'
                         ],
                         [
-                            "eid126",
-                            "left",
-                            5430,
-                            1287,
+                            "eid285",
+                            "opacity",
+                            17000,
+                            1500,
                             "linear",
-                            "${Rectangle2Copy}",
-                            '567px',
-                            '303px'
-                        ],
-                        [
-                            "eid127",
-                            "left",
-                            7180,
-                            320,
-                            "linear",
-                            "${Rectangle2Copy}",
-                            '303px',
-                            '-264px'
-                        ],
-                        [
-                            "eid124",
-                            "scaleY",
-                            6716,
-                            244,
-                            "linear",
-                            "${Rectangle2Copy}",
-                            '1',
-                            '1.1'
-                        ],
-                        [
-                            "eid125",
-                            "scaleY",
-                            6961,
-                            219,
-                            "linear",
-                            "${Rectangle2Copy}",
-                            '1.1',
+                            "${download}",
+                            '0.000000',
                             '1'
                         ],
                         [
-                            "eid150",
-                            "scaleY",
-                            7180,
-                            320,
-                            "linear",
-                            "${Rectangle2Copy}",
-                            '1',
-                            '1.01'
-                        ],
-                        [
-                            "eid49",
+                            "eid212",
                             "top",
-                            1170,
-                            1170,
-                            "linear",
-                            "${Rectangle}",
-                            '973px',
-                            '349px'
-                        ],
-                        [
-                            "eid73",
-                            "top",
-                            3346,
+                            13670,
                             0,
                             "linear",
-                            "${Rectangle}",
-                            '349px',
-                            '349px'
+                            "${Text3Copy3}",
+                            '399px',
+                            '399px'
                         ],
                         [
-                            "eid122",
-                            "scaleX",
-                            6716,
-                            244,
+                            "eid213",
+                            "top",
+                            14840,
+                            0,
                             "linear",
-                            "${Rectangle2Copy}",
-                            '1',
-                            '1.1'
+                            "${Text3Copy3}",
+                            '399px',
+                            '406px'
                         ],
                         [
-                            "eid123",
-                            "scaleX",
-                            6961,
-                            219,
+                            "eid194",
+                            "top",
+                            8500,
+                            1170,
                             "linear",
-                            "${Rectangle2Copy}",
-                            '1.1',
-                            '1'
+                            "${TextCopy2}",
+                            '190px',
+                            '184px'
                         ],
                         [
-                            "eid48",
+                            "eid195",
+                            "top",
+                            11846,
+                            0,
+                            "linear",
+                            "${TextCopy2}",
+                            '184px',
+                            '184px'
+                        ],
+                        [
+                            "eid216",
+                            "top",
+                            12500,
+                            1170,
+                            "linear",
+                            "${TextCopy3}",
+                            '190px',
+                            '184px'
+                        ],
+                        [
+                            "eid217",
+                            "top",
+                            15846,
+                            0,
+                            "linear",
+                            "${TextCopy3}",
+                            '184px',
+                            '184px'
+                        ],
+                        [
+                            "eid196",
                             "left",
-                            1170,
+                            8500,
                             1170,
                             "linear",
-                            "${Rectangle}",
-                            '35px',
-                            '42px'
+                            "${TextCopy2}",
+                            '739px',
+                            '90px'
                         ],
                         [
-                            "eid78",
+                            "eid197",
                             "left",
-                            3346,
-                            291,
+                            11846,
+                            1154,
                             "linear",
-                            "${Rectangle}",
-                            '42px',
-                            '-525px'
+                            "${TextCopy2}",
+                            '90px',
+                            '-477px'
                         ],
                         [
-                            "eid2",
-                            "boxShadow.offsetH",
-                            1170,
-                            0,
-                            "linear",
-                            "${Rectangle}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
-                            "eid34",
-                            "boxShadow.offsetH",
-                            2340,
-                            0,
-                            "linear",
-                            "${Rectangle}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
-                            "eid51",
+                            "eid210",
                             "top",
-                            1755,
+                            9670,
                             1170,
+                            "linear",
+                            "${Text3Copy2}",
+                            '399px',
+                            '406px'
+                        ],
+                        [
+                            "eid211",
+                            "top",
+                            10840,
+                            0,
+                            "linear",
+                            "${Text3Copy2}",
+                            '406px',
+                            '399px'
+                        ],
+                        [
+                            "eid163",
+                            "top",
+                            1170,
+                            0,
                             "linear",
                             "${Text3}",
                             '399px',
-                            '393px'
+                            '399px'
                         ],
                         [
-                            "eid69",
+                            "eid169",
                             "top",
                             3346,
                             0,
                             "linear",
                             "${Text3}",
-                            '393px',
-                            '393px'
+                            '399px',
+                            '399px'
                         ]
                     ]
                 }
