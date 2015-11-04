@@ -16,7 +16,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // 常用的 Edge 类�
       Symbol.bindElementAction(compId, symbolName, "${Android}", "click", function(sym, e) {
          // 插入代码——当鼠标在此处单击
          // 在新窗口中导航到新的URL
-          window.open("http://android.myapp.com/myapp/detail.htm?apkName=com.example.bianlidai", "_blank");
+          window.open("http://a.app.qq.com/o/simple.jsp?pkgname=com.example.bianlidai", "_blank");
          
 
       });
